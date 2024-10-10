@@ -1,1 +1,37 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Information</title>
+</head>
+
+<body>
+    <h1>Group Information</h1>
+
+    <!-- Group Photo -->
+    <img src=images\group-photo.jpg alt="Group Photo" width="500">
+
+    <!-- Detailed Group Information -->
+    <h2>Group Name: [Your Group Name]</h2>
+    <ul>
+        <li>Member 1: <a href="members/22127188/22127188.html">Profile Page</a></li>
+        <li>Member 2: <a href="members/22127223/22127223.html">Profile Page</a></li>
+        <li>Member 3: <a href="members/22127477/22127477.html">Profile Page</a></li>
+        <!-- Add more members as needed -->
+    </ul>
+
+    <!-- Image Map for Group Members -->
+    <h2>Click on a Member's Face to See Their Profile</h2>
+    <img src="group-photo-map.jpg" alt="Group Photo Map" usemap="#groupmap" width="500">
+
+    <!-- Image Map Definition -->
+    <map name="groupmap">
+        <area shape="rect" coords="34,44,270,350" alt="Member 1" href="member1.html">
+        <area shape="rect" coords="290,172,333,250" alt="Member 2" href="member2.html">
+        <!-- Add more <area> tags for other members -->
+    </map>
+</body>
+
+</html>
