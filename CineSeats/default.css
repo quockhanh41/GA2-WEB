@@ -1,0 +1,237 @@
+body{
+    background-color:#181C14;
+    font-family: sans-serif;
+}
+.information{
+    width: 80%;
+    background-color: #3C3D37;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px; 
+}
+.main-heading{
+    text-align: center;
+    color: #ECDFCC;
+    margin-top: 5px;
+}
+hr{
+    margin-top: 5px;
+}
+.team{
+    color:#697565;
+    font-size: 20px;
+}
+@font-face {
+    font-family: logo_font;
+    src: url("PressStart2P-Regular.ttf");
+}
+:root {
+    --color-primary: #f6c8a2;
+    --color-secondary: #f4c290;
+    --color-tertiary: #f2a47d;
+    --color-quaternary: #f09b6a;
+    --color-quinary: #ee9852;
+}
+.team-name {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+      9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+    font-family: logo_font, sans-serif;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 0;
+    color: var(--color-primary);
+    animation: shadows 1.2s ease-in infinite,move 1.2s ease-in infinite; 
+}
+@keyframes shadows {
+    0% {
+      text-shadow: none;
+    }
+    10% {
+      text-shadow: 3px 3px 0 var(--color-secondary);
+    }
+    20% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary);
+    }
+    30% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+    }
+    40% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    50% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    60% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    70% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+    }
+    80% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary);
+    }
+    90% {
+      text-shadow: 3px 3px 0 var(--color-secondary);
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
+@keyframes move {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    40% {
+      transform: translate(-12px, -12px);
+    }
+    50% {
+      transform: translate(-12px, -12px);
+    }
+    60% {
+      transform: translate(-12px, -12px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+}
+.member-border{
+    background-color: #697565;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 20px;
+    max-width: 350px;
+}
+.member{
+    color: #ECDFCC;
+    margin-top: -5px;
+    text-align: center;
+}
+.list-container{
+    text-align: center;
+    margin-top: -15px;
+}
+.list{
+    color: #ECDFCC;
+    text-align: left;
+    display: inline-block;
+    font-size:18px;
+    margin-top: 2px;
+    margin-bottom: -10px;
+    margin-right: 15px;
+}
+.team-img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.profile-body {
+    background-color:#181C14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color:#697565;
+    font-size: 26px;
+}
+
+a {
+    color: #ECDFCC;
+    text-decoration: none;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+}
+
+input {
+    font-size: 16px;
+    /* Larger input text for readability */
+}
+
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    background-color:#3C3D37;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Căn giữa hình ảnh và nút theo chiều ngang */
+    margin-right: 20px;
+    /* giãn cách dữa các elements */
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    /* Khoảng cách giữa hình ảnh và nút Facebook */
+}
+
+.Facebook-button {
+    background-color: #697565;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    /* Thêm khoảng cách dưới nút Facebook */
+}
+
+.profile-info {
+    width: 300px;
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color:#ECDFCC;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #E9EEF2;
+}
+.hotspot {
+  fill-opacity: 0;
+}
