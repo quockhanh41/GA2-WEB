@@ -6,11 +6,30 @@
 }
 
 body {
-    background-color: #4A5A61;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+h2 {
+    color: #3b5998;
+    /* Facebook's signature color */
+    font-size: 26px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    font-size: 16px;
+    /* Larger input text for readability */
 }
 
 .profile-container_22127188 {
@@ -71,6 +90,67 @@ body {
 }
 
 .input-group_22127188 input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #E9EEF2;
+}
+
+
+.profile-container_22127223 {
+    max-width: 600px;
+    margin: 20px auto;
+    /* Center the profile container */
+}
+
+.profile-image_22127223 {
+    border: 4px solid #3b5998;
+    /* Make the image stand out */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header_22127223 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Căn giữa hình ảnh và nút theo chiều ngang */
+    margin-right: 20px;
+    /* giãn cách dữa các elements */
+}
+
+.Facebook-button_22127223 {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    /* Thêm khoảng cách dưới nút Facebook */
+}
+
+.profile-info_22127223 {
+    width: 300px;
+}
+
+.profile-info_22127223 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.input-group_22127223 {
+    margin-bottom: 15px;
+}
+
+.input-group_22127223 label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group_22127223 input {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
